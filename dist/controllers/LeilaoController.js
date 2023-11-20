@@ -55,9 +55,9 @@ class LeilaoController {
     }
     deletarLeilao(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const identificaco = parseInt(req.params.identificaco);
+            const identificacao = parseInt(req.params.identificacao);
             try {
-                yield LeilaoServices_1.default.deletarLeilao(identificaco);
+                yield LeilaoServices_1.default.deletarLeilao(identificacao);
                 res.status(200).json({
                     status: 'Leilao deletado com sucesso!',
                 });
