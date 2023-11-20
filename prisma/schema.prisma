@@ -11,7 +11,7 @@ datasource db {
 }
 
 model Usuario{
-  idUsuario Int @id
+  idusuario Int @id
   nome String
   email String
   indentleilao Leilao @relation(fields: [idleilao], references: [indentificacao])
@@ -30,8 +30,8 @@ model Leilao{
 }
 
 model Lance{
-  lenceleilao Int @id
-  comprador Usuario @relation(fields: [iduser], references: [idUsuario])
+  numlance Int @id
+  comprador Usuario @relation(fields: [iduser], references: [idusuario])
   iduser Int
   leilao Leilao @relation(fields: [idleilao], references: [indentificacao])
   idleilao Int
