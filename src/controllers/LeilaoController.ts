@@ -37,9 +37,9 @@ class LeilaoController {
   }
 
   async deletarLeilao(req: Request, res: Response) {
-    const identificaco:number = parseInt(req.params.identificaco as string)
+    const identificacao:number = parseInt(req.params.identificacao as string)
     try {
-      await LeilaoServices.deletarLeilao(identificaco)
+      await LeilaoServices.deletarLeilao(identificacao)
       res.status(200).json({
         status: 'Leilao deletado com sucesso!',
       })
