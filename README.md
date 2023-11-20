@@ -1,6 +1,6 @@
 # Teste Segundo Bimestre
 Teste do segundo bimestre de POOII<br>
-Um leiloeiro contratou nossa turma de POO II para desenvolver um sistema de leilões que tem a seguinte modelagem<br>
+Um leiloeiro contratou nossa turma de POO II para desenvolver um sistema de leilões que tem a seguinte modelagem:<br>
 <br>
 <img src="/assets/dbLeilao.png"> <br>
 <br>
